@@ -1,0 +1,103 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.sweet-cow-login-container {
+  display: grid;
+  grid-gap: 1.25rem;
+  justify-items: center;
+  border-radius: 4px;
+
+  padding: 3.75rem 0.5rem 1rem 0.5rem;
+  width: calc(100% - 2rem);
+}
+
+.sweet-cow-login-container__title {
+  color: rgb(255, 87, 87);
+  font-size: 1.625rem;
+  font-weight: 600;
+  font-style: italic;
+
+  padding: 0 0 2.5rem 0;
+}
+
+.sweet-cow-login-container__form {
+  display: grid;
+
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+.sweet-cow-login-container__label {
+  font-size: 14px;
+  color: #153f1d;
+}
+
+.sweet-cow-login-container__input {
+  display: grid;
+  align-items: center;
+
+  border: rgba(0, 0, 0, 0.24) 1px solid;
+
+  color: #000000;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  height: 30px;
+  padding: 8px 12px;
+}
+
+.sweet-cow-login-container__forgot {
+  color: rgb(61, 122, 255);
+
+  font-size: 0.875rem;
+  font-style: 600;
+  justify-self: start;
+}
+
+.sweet-cow-login-container__buttons {
+  display: grid;
+  grid-gap: 1.25rem;
+  grid-template-columns: 1fr auto;
+  width: 100%;
+
+  padding: 0.625rem 0;
+}
+
+.sweet-cow-login-container__login {
+  display: grid;
+  place-items: center;
+
+  background: rgb(61, 122, 255);
+  border-radius: 4px;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  height: 2.5rem;
+  width: 100%;
+}
+.sweet-cow-login-container__register {
+  color: rgb(61, 122, 255);
+
+  font-size: 0.875rem;
+  font-style: 600;
+  justify-self: start;
+}
+
+.margin-down-5 {
+  margin: 0 0 0.3125rem 0;
+}
+
+.margin-down-20 {
+  margin: 0 0 1.25rem 0;
+}
